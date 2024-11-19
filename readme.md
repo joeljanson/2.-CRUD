@@ -33,3 +33,11 @@ CREATE TABLE IF NOT EXISTS articles (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
+För att komma ut ur SQL-klienten, skriv följande i terminalen.
+
+```sql
+exit;
+```
+
+När allt detta har körts kan du besöka webbplatsen på localhost:8080.
