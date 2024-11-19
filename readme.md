@@ -4,7 +4,6 @@
 
 ´´´bash
 docker exec -it mysql-container mysql -u root -p
-´´´
 
 - byt ut mysql-container mot namnet på din MySQL container (hittas med docker ps efter att du kört docker compose up -d)
 
