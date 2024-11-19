@@ -2,8 +2,9 @@
 
 ## Börja med att öppna SQL-klienten i din MySQL container genom att köra följande kommando i terminalen.
 
-´´´bash
+```bash
 docker exec -it mysql-container mysql -u root -p
+```
 
 - byt ut mysql-container mot namnet på din MySQL container (hittas med docker ps efter att du kört docker compose up -d)
 
